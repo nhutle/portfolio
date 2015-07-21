@@ -1,0 +1,28 @@
+.raleway {
+  font-family: "Raleway", "Times New Roman", Times, sans-serif;
+}
+
+.raleway-light {
+  font-weight: 300;
+}
+
+.raleway-normal {
+  font-weight: 400;
+}
+
+.raleway-medium {
+  font-weight: 500;
+}
+
+.raleway-bold {
+  font-weight: 700;
+}
+
+.raleway-extra-bold {
+  font-weight: 800;
+}
+
+.raleway-light, .raleway-normal, .raleway-medium, .raleway-bold, .raleway-extra-bold {
+  @extend .raleway;
+}
+
